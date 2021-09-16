@@ -1,3 +1,4 @@
+//this is still in progress..
 int size = 10;
 int wh = 90;
 int[][] grid = new int[wh][wh];
