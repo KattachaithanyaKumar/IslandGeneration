@@ -1,3 +1,4 @@
+/* The code doesnot work yet */
 int size = 30;
 int[][] grid = new int[size][size];
 int x = 10;
