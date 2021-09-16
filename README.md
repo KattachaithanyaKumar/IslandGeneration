@@ -1,5 +1,7 @@
 # IslandGeneration
 Note: this is still in progress..
+
+
 an java program which generates islands 
 
 the main concept is:
