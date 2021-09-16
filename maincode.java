@@ -21,16 +21,15 @@ void setup()  {
   background(0);
   for (int i = 0; i < wh; i++)  {
     for (int j = 0; j < wh; j++)  {
-      //grid[i][j] = floor(random(3));
       grid[i][j] = 0;
     }
   }
-  //grid[xx][yy] = 1;
 }
 
 void draw()  {
-
+  //genrate the island
   dogen();
+  //add the sand to the outer edges of the grass
   design();
   for (int i = 0; i < wh; i++)  {
     for (int j = 0; j < wh; j++)  {
